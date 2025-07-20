@@ -13,7 +13,7 @@ L.Icon.Default.mergeOptions({
 
 // Custom car icon
 const carIcon = new L.Icon({
-  iconUrl: process.env.PUBLIC_URL + '/car.png',
+  iconUrl: `${process.env.PUBLIC_URL}/car.png`,
   iconSize: [32, 32],            // Size of the icon
   iconAnchor: [16, 16],          // Anchor point (center of icon)
   popupAnchor: [0, -16],         // Popup appears above the icon
@@ -32,7 +32,7 @@ export default function App() {
 
   // Load dummy data
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/dummyRoutes.json')
+    fetch(`${process.env.PUBLIC_URL}/dummyRoutes.json`)
       .then(res => {
         if (!res.ok) throw new Error('Failed to load route data');
         return res.json();
