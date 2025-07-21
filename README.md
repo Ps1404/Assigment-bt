@@ -3,6 +3,8 @@
 Real-time vehicle movement simulation using React and Leaflet
 
 ![Demo Screenshot]
+<img width="1920" height="872" alt="Screenshot (289)" src="https://github.com/user-attachments/assets/00edf05f-b44d-4a84-be67-db340c95a80c" />
+
 
 ## Features
 - Live vehicle movement simulation
